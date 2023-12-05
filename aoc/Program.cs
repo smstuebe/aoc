@@ -1,7 +1,7 @@
 ﻿
 
 
-var day = new Day4();
+var day = new Day5();
 day.FirstPart();
 day.SecondPart();
 
