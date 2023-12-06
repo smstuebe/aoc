@@ -1,4 +1,4 @@
-﻿public class DayX
+﻿public class DayX : IDay
 {
     private string[] lines;
 
