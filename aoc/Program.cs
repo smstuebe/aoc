@@ -10,3 +10,5 @@ Console.WriteLine($"Starting day {currentDay.Item2}...");
 var day = (IDay)Activator.CreateInstance(currentDay.Item1)!;
 day.FirstPart();
 day.SecondPart();
+
+Console.ReadKey();
