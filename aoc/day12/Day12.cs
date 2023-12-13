@@ -1,11 +1,11 @@
 ﻿using System.Collections.Concurrent;
 
-public class Day23 : IDay
+public class Day12 : IDay
 {
     private string[] lines;
     private readonly ConcurrentDictionary<string, long> cache;
 
-    public Day23()
+    public Day12()
     {
         lines = File.ReadAllLines("day12/input.txt");
         cache = new ConcurrentDictionary<string, long>();
